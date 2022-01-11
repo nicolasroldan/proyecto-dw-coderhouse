@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/5fb9878282.js" crossorigin="anonymous" defer></script>
+    <script src="js/script.js" defer></script>
+    <title>bykes</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div>
+            <a href="#home"><img class="logo" src="images/logo_transparent.png" alt="App logo"></a>
+        </div>
+        <button id="hamburguer-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav>
+            <ul id="sections-links">
+                <li><a id="home-link" href="#home">Home</a></li>
+                <li><a id="about-link" href="#about-section">About</a></li>
+                <li><a id="types-link" href="#types-section">Types</a></li>
+                <li><a id="thoughts-link" href="#thoughts-section">Thoughts</a></li>
+                <li><a id="contact-link" href="#contact-section">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <section id="home">
+        <div>
+            <h1>Riding Bykes is our passion</h1>
+        </div>
+    </section>
+
+    <!-- about-section -->
+    <section id="about-section">
+        <div>
+            <p>In the early twentieth century the bicycle was credited for enabling perhaps the greatest scientific
+                innovation of the century. It was while riding his bicycle, Albert Einstein says, that he conceived his
+                General Theory of Relativity.
+            </p>
+        </div>
+        <img src="images/bicycle-12.jpg" alt="Person riding bike">
+    </section>
+
+    <!-- types-section -->
+    <section id="types-section">
+        <h2>Prepared for Different Environments</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="images/bicycle-5.jpg" alt="People riding bikes">
+                <h3>Touring Bikes</h3>
+                <p>
+                    Touring bikes for a relaxed ride.
+                </p>
+            </div>
+            <div class="card">
+                <img src="images/bicycle-6.jpg" alt="Person riding bike">
+                <h3>Commuting</h3>
+                <p>
+                    Commuting for your day to day activities.
+                </p>
+            </div>
+            <div class="card">
+                <img src="images/bicycle-7.jpg" alt="Person riding bike">
+                <h3>High Performance Bikes</h3>
+                <p>
+                    Prepared for training sessions on the road.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- thoughts-section -->
+    <section id="thoughts-section">
+        <img src="images/bicycle-11.jpg" alt="Bike in the forest">
+        <div>
+            <h2>A Persective</h2>
+            <p>The bicycle continues to be a vehicle of independence, enterprise and health for the developing world. A
+                bicycle allows access to health care, education and the wider community and its affordable
+                transportation is an economic opportunity because a bike means you can travel twice as far, twice as
+                fast and carry four times the load.
+            </p>
+            <p>
+                Today, far from being replaced by motor vehicles, bicycles remain vital as a tool to combat the
+                lifestyle diseases that are making us sick and sad in larger and larger numbers in the developed world.
+                For healthy recreation and, most effectively, for active transport, every person benefits from a bicycle
+                at their disposal.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact-section">
+        <div>
+            <p>
+                We would love to hear from you and know what a bike inspires you!
+            </p>
+        </div>
+        <form>
+            <p>Contact Us</p>
+            <label for="name">Name: </label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <label for="email">Email: </label>
+            <input type="text" id="email" placeholder="Enter your email">
+            <label for="message">Message: </label>
+            <textarea id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+            <input id="submit-btn" type="submit" value="Send">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <ul>
+            <li>
+                <p>417 Myers St. Eastlake, OH 44095</p>
+            </li>
+            <li>
+                <p>bykes.contact@bykes.com</p>
+            </li>
+            <li>
+                <p>Copyright &copy; 2021 bikes</p>
+            </li>
+            <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+            <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

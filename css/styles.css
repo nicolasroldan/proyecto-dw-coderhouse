@@ -1,0 +1,323 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+}
+
+li, a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+:root {
+  --primary-color: #555273;
+  --secondary-color: #65799b;
+  --third-color: #b6d5e1;
+  --fourth-color: #bcbcbc;
+  --five-color: #5a657b;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+p, a, label {
+  font-size: 1.2rem;
+}
+
+p {
+  line-height: 1.9rem;
+}
+
+
+/* Header */
+
+header {
+  background-color: var(--fourth-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 5rem;
+  width: 100%;
+  box-shadow: 0px 1px 9px 3px #b8b8b8;
+  flex-wrap: wrap;
+}
+
+#hamburguer-btn {
+  display: block;
+  margin: 0 2rem;
+  color: var(--primary-color);
+  font-size: 1.7rem;
+  background-color: var(--fourth-color);
+  border: none;
+  cursor: pointer;
+}
+
+#hamburguer-btn:focus {
+  outline: none;
+}
+
+#sections-links {
+  display: none;
+  width: 100%;
+  flex-direction: column;
+}
+
+header nav {
+  width: 100%;
+  text-align: center;
+  background-color: var(--fourth-color);
+  box-shadow: 0px 1px 9px 3px #b8b8b8;
+  position: relative;
+  top: -5px;
+}
+
+#sections-links.show {
+  display: flex;
+}
+
+.logo {
+  width: 5rem;
+}
+
+header ul {
+  display: flex;
+}
+
+header li {
+  margin: 1rem 2rem;
+  list-style: none;
+}
+
+#sections-links li a {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+/* Home */
+
+#home {
+  background-image: url('../images/patrick-hendry-qDBbM9Erwo4-unsplash.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: 100% 51%;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+h1 {
+  display: inline;
+  color: var(--fourth-color);
+  font-size: 5rem;
+}
+
+/* about-section */
+
+#about-section {
+  background-color: var(--five-color);
+  padding: 5rem 1rem; 
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+#about-section img {
+  width: 100%;
+}
+
+#about-section p {
+  color: var(--fourth-color);
+}
+
+/* types-section */
+
+#types-section {
+  background-color: var(--fourth-color);
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+#types-section h2 {
+  margin: 5rem 0;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+  text-align: center;
+  gap: 1rem;
+}
+
+.cards-container div img {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.cards-container h3 {
+  margin-bottom: .8rem;
+}
+
+#types-section h2, .cards-container h3, .cards-container p {
+  color: var(--five-color);
+}
+
+/* thoughts-section */
+
+#thoughts-section {
+  background-color: var(--fourth-color);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+  gap: 1rem;
+  padding: 5rem 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+#thoughts-section img {
+  width: 100%;
+}
+
+#thoughts-section h2 {
+  padding-bottom: 2rem;
+}
+
+#thoughts-section h2, #thoughts-section p {
+  color: var(--five-color);
+}
+
+#thoughts-section div p:nth-of-type(1) {
+  padding-bottom: 2rem;
+}
+
+/* Contact-section */
+
+#contact-section {
+  background-color: var(--five-color);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+  gap: 1rem;
+  padding: 5rem 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+#contact-section p, #contact-section label {
+  color: var(--fourth-color);
+}
+
+/* Form */
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form > * {
+  width: 100%;
+}
+
+form label {
+  margin-top: 1rem;
+  height: 2rem;
+}
+
+form input {
+  height: 2rem;
+}
+
+form textarea, form input {
+  padding: 5px 5px;
+}
+
+textarea {
+  font-family: inherit;
+}
+
+form label, form input, form textarea {
+  border-radius: 7px;
+  border: none;
+}
+
+#submit-btn {
+  border: none;
+  background-color: var(--fourth-color);
+  color: var(--five-color);
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  width: 20%;
+}
+
+/* Footer */
+
+footer {
+  background-color: #5a657bf0;
+  padding: 2rem 2rem;
+}
+
+footer ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  text-align: center;
+}
+
+footer p, footer a {
+  color: var(--fourth-color);
+}
+
+@media screen and (min-width: 1024px) {
+  header nav {
+    width: auto;
+    box-shadow: none;
+    position: unset;
+  }
+
+  #sections-links  {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #hamburguer-btn {
+    display: none !important;
+  }
+
+  #about-section div {
+    padding: 0 3rem;
+  }
+
+  #thoughts-section div {
+    padding: 0 3rem;
+  }
+
+  form > * {
+    width: 80%;
+  }
+
+  #about-section, #thoughts-section,
+  #contact-section {
+    padding: 5rem 10rem;
+    text-align: left;
+  }
+
+  .cards-container {
+    text-align: left;
+  }
+}
