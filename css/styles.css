@@ -306,7 +306,7 @@ footer p, footer a {
   }
 
   #hamburguer-btn {
-    display: none !important;
+    display: none;
   }
 
   #about-section div {
