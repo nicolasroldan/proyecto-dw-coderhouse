@@ -10,7 +10,7 @@ body {
   background-color: var(--five-color);
   position: relative;
   min-height: 100vh;
-  padding-bottom: 5.9rem;
+  padding-bottom: 10rem;
 }
 
 li, a {
@@ -136,11 +136,6 @@ h1 {
 #about-section {
   background-color: var(--five-color);
   padding: 5rem 1rem; 
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
-  gap: 1rem;
-  align-items: center;
-  text-align: center;
 }
 
 #about-section img {
@@ -187,12 +182,7 @@ h1 {
 
 #thoughts-section {
   background-color: var(--fourth-color);
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
-  gap: 1rem;
   padding: 10rem 1rem;
-  align-items: center;
-  text-align: center;
 }
 
 #thoughts-section img {
