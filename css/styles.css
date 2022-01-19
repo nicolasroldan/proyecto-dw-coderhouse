@@ -48,67 +48,12 @@ p {
 
 /* Header */
 
-header {
+nav {
   background-color: var(--fourth-color);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  height: 5rem;
-  width: 100%;
-  box-shadow: 0px 1px 9px 3px #b8b8b8;
-  flex-wrap: wrap;
-}
-
-#hamburguer-btn {
-  display: block;
-  margin: 0 2rem;
-  color: var(--primary-color);
-  font-size: 1.7rem;
-  background-color: var(--fourth-color);
-  border: none;
-  cursor: pointer;
-}
-
-#hamburguer-btn:focus {
-  outline: none;
-}
-
-#sections-links {
-  display: none;
-  width: 100%;
-  flex-direction: column;
-}
-
-header nav {
-  width: 100%;
-  text-align: center;
-  background-color: var(--fourth-color);
-  box-shadow: 0px 1px 9px 3px #b8b8b8;
-  position: relative;
-  top: -5px;
-}
-
-#sections-links.show {
-  display: flex;
 }
 
 .logo {
   width: 5rem;
-}
-
-header ul {
-  display: flex;
-}
-
-header li {
-  margin: 1rem 2rem;
-  list-style: none;
-}
-
-#sections-links li a {
-  color: var(--primary-color);
-  font-weight: 600;
 }
 
 /* Home */
@@ -284,21 +229,6 @@ footer p, footer a {
 }
 
 @media screen and (min-width: 1024px) {
-  header nav {
-    width: auto;
-    box-shadow: none;
-    position: unset;
-  }
-
-  #sections-links  {
-    display: flex;
-    flex-direction: row;
-  }
-
-  #hamburguer-btn {
-    display: none;
-  }
-
   #about-section div {
     padding: 0 3rem;
   }
