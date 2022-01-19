@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
 }
@@ -13,7 +15,8 @@ body {
   padding-bottom: 18rem;
 }
 
-li, a {
+li,
+a {
   text-decoration: none;
 }
 
@@ -22,7 +25,7 @@ li {
 }
 
 ul {
-	padding-left: 0;
+  padding-left: 0;
 }
 
 :root {
@@ -41,14 +44,15 @@ h3 {
   font-size: 1.3rem;
 }
 
-p, a, label {
+p,
+a,
+label {
   font-size: 1.2rem;
 }
 
 p {
   line-height: 1.9rem;
 }
-
 
 /* Header */
 
@@ -85,7 +89,7 @@ h1 {
 #about-section {
   background-color: var(--five-color);
   padding: 5rem 1rem;
-	display: grid;
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
   gap: 1rem;
   align-items: center;
@@ -125,10 +129,12 @@ h1 {
 }
 
 .cards-container h3 {
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
 }
 
-#types-section h2, .cards-container h3, .cards-container p {
+#types-section h2,
+.cards-container h3,
+.cards-container p {
   color: var(--five-color);
 }
 
@@ -152,7 +158,8 @@ h1 {
   padding-bottom: 2rem;
 }
 
-#thoughts-section h2, #thoughts-section p {
+#thoughts-section h2,
+#thoughts-section p {
   color: var(--five-color);
 }
 
@@ -172,7 +179,8 @@ h1 {
   text-align: center;
 }
 
-#contact-section p, #contact-section label {
+#contact-section p,
+#contact-section label {
   color: var(--fourth-color);
 }
 
@@ -197,7 +205,8 @@ form input {
   height: 2rem;
 }
 
-form textarea, form input {
+form textarea,
+form input {
   padding: 5px 5px;
 }
 
@@ -205,7 +214,9 @@ textarea {
   font-family: inherit;
 }
 
-form label, form input, form textarea {
+form label,
+form input,
+form textarea {
   border-radius: 7px;
   border: none;
 }
@@ -216,11 +227,13 @@ form label, form input, form textarea {
   color: var(--five-color);
   font-size: 1.1rem;
   margin-top: 1rem;
-  width: 20%; 
-  transition: all .5s ease-in-out;
+  width: 20%;
+  transition: all 0.5s ease-in-out;
 }
 
-#submit-btn:hover { transform: scale(1.1); }
+#submit-btn:hover {
+  transform: scale(1.1);
+}
 
 /* Footer */
 
@@ -238,14 +251,15 @@ footer ul {
   text-align: center;
 }
 
-footer p, footer a {
+footer p,
+footer a {
   color: var(--fourth-color);
 }
 
 @media screen and (min-width: 1024px) {
-	body {
-		padding-bottom: 9rem;
-	}
+  body {
+    padding-bottom: 9rem;
+  }
 
   #about-section div {
     padding: 0 3rem;
@@ -259,7 +273,8 @@ footer p, footer a {
     width: 80%;
   }
 
-  #about-section, #thoughts-section,
+  #about-section,
+  #thoughts-section,
   #contact-section {
     padding: 11rem 10rem;
     text-align: left;
