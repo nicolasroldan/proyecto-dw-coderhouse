@@ -1,0 +1,17 @@
+/* about-section */
+
+#about-section {
+  background-color: $secondary-color;
+  padding: 5rem 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+  gap: 1rem;
+  align-items: center;
+  text-align: left;
+  img {
+    width: 100%;
+  }
+  p {
+    color: $primary-color;
+  }
+}

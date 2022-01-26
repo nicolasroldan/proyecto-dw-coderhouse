@@ -1,0 +1,32 @@
+/* types-section */
+
+#types-section {
+  background-color: $primary-color;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+#types-section {
+  h2 {
+    margin: 5rem 0;
+  }
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+    text-align: center;
+    gap: 1rem;
+    img {
+      width: 100%;
+      margin-bottom: 3rem;
+    }
+    h3 {
+      margin-bottom: 0.8rem;
+    }
+  }
+}
+
+#types-section h2,
+.cards-container h3,
+.cards-container p {
+  color: $secondary-color;
+}

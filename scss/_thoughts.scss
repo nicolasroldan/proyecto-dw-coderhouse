@@ -1,0 +1,26 @@
+/* thoughts-section */
+
+#thoughts-section {
+  background-color: $primary-color;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+  gap: 1rem;
+  padding: 3rem 1rem;
+  align-items: center;
+  text-align: left;
+  img {
+    width: 100%;
+  }
+  div {
+    h2 {
+      padding-bottom: 2rem;
+    }
+    p:nth-of-type(1) {
+      padding-bottom: 2rem;
+    }
+  }
+  h2,
+  p {
+    color: $secondary-color;
+  }
+}

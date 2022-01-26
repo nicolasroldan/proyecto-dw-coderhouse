@@ -1,0 +1,56 @@
+@import "variables.scss";
+@import "header.scss";
+@import "home.scss";
+@import "about.scss";
+@import "types.scss";
+@import "thoughts.scss";
+@import "contact.scss";
+@import "footer.scss";
+@import "media-queries.scss";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  background-color: $secondary-color;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 18rem;
+  li,
+  a {
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  p,
+  a,
+  label {
+    font-size: 1.2rem;
+  }
+
+  p {
+    line-height: 1.9rem;
+  }
+}

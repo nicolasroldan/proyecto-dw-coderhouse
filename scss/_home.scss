@@ -1,0 +1,18 @@
+/* Home */
+
+#home {
+  background-image: url("../images/patrick-hendry-qDBbM9Erwo4-unsplash.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: 100% 51%;
+  background-attachment: fixed;
+  text-align: center;
+  h1 {
+    display: inline;
+    color: $primary-color;
+    font-size: 5rem;
+  }
+}

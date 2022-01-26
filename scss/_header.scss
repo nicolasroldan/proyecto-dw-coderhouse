@@ -1,0 +1,14 @@
+/* Header */
+
+nav {
+  background-color: $primary-color;
+  .logo {
+    width: 5rem;
+  }
+  .nav-link {
+    transition: all 0.5s ease-in-out;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
