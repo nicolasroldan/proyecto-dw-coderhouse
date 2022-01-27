@@ -2,9 +2,9 @@
 
 #thoughts-section {
   background-color: $primary-color;
-  display: grid;
+  display: map-get($grid, display-grid);
   grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
-  gap: 1rem;
+  gap: map-get($grid, gap);
   padding: 3rem 1rem;
   align-items: center;
   text-align: left;

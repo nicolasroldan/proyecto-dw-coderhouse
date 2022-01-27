@@ -2,9 +2,9 @@
 
 #contact-section {
   background-color: $secondary-color;
-  display: grid;
+  display: map-get($grid, display-grid);
   grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
-  gap: 1rem;
+  gap: map-get($grid, gap);
   padding: 10rem 1rem;
   align-items: center;
   text-align: center;
@@ -18,9 +18,9 @@
 /* contact-form */
 
 form {
-  display: flex;
+  @extend %flex-center;
+  @include flex-align-items(center);
   flex-direction: column;
-  align-items: center;
   & > * {
     width: 100%;
   }

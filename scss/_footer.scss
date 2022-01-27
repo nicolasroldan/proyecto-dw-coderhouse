@@ -7,7 +7,7 @@ footer {
   bottom: 0;
   width: 100%;
   ul {
-    display: grid;
+    display: map-get($grid, display-grid);
     grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
     text-align: center;
     p,

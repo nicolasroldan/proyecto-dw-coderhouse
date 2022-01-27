@@ -3,9 +3,9 @@
 #about-section {
   background-color: $secondary-color;
   padding: 5rem 1rem;
-  display: grid;
+  display: map-get($grid, display-grid);
   grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
-  gap: 1rem;
+  gap: map-get($grid, gap);
   align-items: center;
   text-align: left;
   img {

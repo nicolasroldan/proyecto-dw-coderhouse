@@ -11,10 +11,10 @@
     margin: 5rem 0;
   }
   .cards-container {
-    display: grid;
+    display: map-get($grid, display-grid);
     grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
     text-align: center;
-    gap: 1rem;
+    gap: map-get($grid, gap);
     img {
       width: 100%;
       margin-bottom: 3rem;

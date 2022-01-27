@@ -4,9 +4,8 @@
   background-image: url("../images/patrick-hendry-qDBbM9Erwo4-unsplash.jpg");
   background-size: cover;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %flex-center;
+  @include flex-align-items(center);
   background-position: 100% 51%;
   background-attachment: fixed;
   text-align: center;
